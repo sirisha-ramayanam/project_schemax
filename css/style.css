@@ -1941,15 +1941,18 @@ body{
  .com-breadcrumb ol{
 }
  .com-breadcrumb ol li{
+     text-decoration: none;
 }
  .com-breadcrumb ol li a{
      font-size: 13px;
      color: #767676;
      line-height: 15px;
+     text-decoration: none;
 }
  .com-breadcrumb > ol .active {
      color: #575757;
      font-size: 13px;
+     text-decoration: none;
 }
 
 /*-------------------------------------------------*/
@@ -4110,19 +4113,23 @@ left: 0;
 /*-------------------------------------------------*/
 /* = 30.MOBILE MANU 
 /*-------------------------------------------------*/
- .ed-mob-menu{
-     position:fixed;
+.ed-mob-menu{
+     position: relative;
      top:0px;
      width:100%;
      height:55px;
      background:#fff;
      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
      z-index: 999;
-     display:none;
+     display: none;
 }
  .ed-mob-menu-con{
-     width: 90%;
+     width: 100%;
      margin: 0 auto;
+     position: fixed;
+     background:#fff;
+     padding-right: 10px;
+     padding-left: 10px;
 }
  .ed-mm-left{
      float: left;
@@ -4140,8 +4147,7 @@ left: 0;
      width: 50%;
      box-sizing: border-box;
 }
- .ed-mm-menu{
-}
+
  .ed-micon{
      float: right;
 }
@@ -4208,6 +4214,8 @@ left: 0;
      border-bottom: 1px solid #ececec;
      padding: 6px 0px 6px 25px;
      font-size: 14px;
+     text-decoration: none;
+     color: #636363;
 }
  .ed-mm-inn ul li a:before {
      content: "\f105";
