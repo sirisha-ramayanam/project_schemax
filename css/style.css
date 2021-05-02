@@ -38,7 +38,9 @@
 /*-------------------------------------------------*/
 
 
-
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 6s;
+  }
 
 body{
      font-family: 'Open Sans', sans-serif;
